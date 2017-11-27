@@ -1,0 +1,17 @@
+name: laravel
+recipe: laravel
+proxy:
+  pma:
+    - pma.laraveldemo.lndo.site
+config:
+  webroot: public
+  via: nginx
+  php: '7.0'
+  xdebug: true
+services:
+  pma:
+    type: phpmyadmin
+    host:
+      - database
+  database:
+    portforward: 3306

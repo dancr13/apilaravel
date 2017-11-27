@@ -1,0 +1,7 @@
+//post
+http://laravel.lndo.site/api/login?email=dbogarin88@gmail.com&password=123456
+http://laravel.lndo.site/api/register?email=dbogarin88@gmail.com&name=Daniel&password=123456&c_password=123456
+http://laravel.lndo.site/api/details
+
+// get
+http://laravel.lndo.site/api/echo
